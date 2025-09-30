@@ -18,7 +18,7 @@ const transporter = nodemailer.createTransport({
   port: 587,
   secure: false,
   auth: {
-    user: "stonegray31@wrsdk12.net", // your email
+    user: "noreply@wrsd.net", // your email
     pass: process.env.SMTP_PASS      // keep password in Render's Environment Variables
   }
 });
